@@ -8,6 +8,13 @@ body {
   height: 100%;
   background-color: black;
 }
+.alone{
+  font-size: 30px;
+  text-decoration: none;
+  color:#ff7269;
+  position: absolute;
+  left: 100px;
+}
 img {
   max-width: 100%;
   display: block;

@@ -41,6 +41,14 @@ body {
 .pr {
   position: relative;
 }
+.alone {
+  font-size: 30px;
+  text-decoration: none;
+  color: #ff7269;
+  position: absolute;
+  top: 47%;
+  left: 100px;
+}
 /* Global styles end */
 .header {
   padding: 29px 20px;
