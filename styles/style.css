@@ -7,11 +7,12 @@ html,
 body {
   height: 100%;
   background-color: black;
+  font-family: "Roboto";
 }
-.alone{
+.alone {
   font-size: 30px;
   text-decoration: none;
-  color:#ff7269;
+  color: #ff7269;
   position: absolute;
   left: 100px;
 }
@@ -85,6 +86,10 @@ a {
   margin-top: -32px;
   text-align: center;
   padding: 0 10px;
+}
+.top__h3 {
+  color: #fff;
+  margin-bottom: 5px;
 }
 .top__texts p {
   width: 270.955px;
