@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+.a__item--c {
+  align-items: center;
+}
+.jc__b {
+  justify-content: space-between;
+}
+.jc__c {
+  justify-content: center;
+}
+.f__direc--c {
+  flex-direction: column;
+}
+.pa {
+  position: absolute;
+}
+.pr {
+  position: relative;
+}
+/* Global styles end */
+.container {
+  overflow: hidden;
+  width: 360px;
+  height: 670px;
+  border-radius: 50px;
+  border: 11px solid #343743;
+  background: #2c2f38;
+  box-shadow: 0px 4px 104px 0px rgba(0, 0, 0, 0.29);
+}
+.circle {
+  width: 550px;
+  height: 545px;
+  background-color: #272a32;
+  border-radius: 50%;
+  top: 150px;
+  left: 0;
+  transform: translateX(-19%);
+}
+.header {
+  padding: 28px 10px 0;
+}
+.main {
+  width: 100%;
+}
+
+.main__top {
+  width: 100%;
+}
+.main__top {
+  background-image: url("../images/left.png"), url("../images/right.png");
+  background-repeat: no-repeat;
+  background-position: left top 100px, right top 80px;
+}
+.main__top--img {
+  width: 270px;
+  margin-left: 40px;
+}
+.top__texts {
+  margin-top: -32px;
+  text-align: center;
+  padding: 0 10px;
+}
+.top__texts p {
+  width: 270.955px;
+  height: 35.96px;
+  color: #686f82;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cards {
+  margin-top: 15px;
+  gap: 21px;
+}
+.card {
+  gap: 5px;
+}
+.card span {
+  color: #686f82;
+  font-size: 12px;
+  font-weight: 600;
+}
+.cards .card img {
+  width: 21px;
+}
+/* main top styles end */
+.ingrid {
+  margin-top: 50px;
+  width: 100%;
+}
+.ingrid__texts {
+  padding: 0 20px;
+}
+.ingrid__texts h3 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.ingrid__texts span {
+  color: #686f82;
+  text-align: right;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ingrid__cards {
+  overflow: hidden;
+
+  gap: 6px;
+  margin-top: 14px;
+  padding-left: 20px;
+}
+.ingrid__card {
+  display: flex;
+  width: 70px;
+  height: 108px;
+  padding: 20px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: rgba(44, 47, 56, 0.64);
+}
+.ingrid__card span {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.price {
+  margin-top: 15px;
+}
+.price span {
+  color: #9ca0af;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.price h3 {
+  color: #ff7269;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
